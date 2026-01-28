@@ -5,7 +5,11 @@
 # set domain: "your_github_user_name.github.io"
 domain: "Dallin-Moon.github.io"
 
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
+
+plugins:
+  - jekyll-remote-theme
+
 # your web site url
 # for GitHub Pages, url: "https://your_github_user_name.github.io"
 url: "https://Dallin-Moon.github.io"
