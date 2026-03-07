@@ -1,18 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.getElementById('menu-toggle');
     const menu = document.getElementById('menu');
+    const projectToggle = document.getElementById('project-menu-toggle');
     const projectMenu = document.getElementById('project-menu');
 
+
     if (menuToggle) {
-        menuToggle.addEventListener('click', function() {
+        menuToggle.addEventListener('click', function(e) {
+            e.stopPropagation();
             menu.classList.toggle('open');
         });
     }
 
-    if (projectMenu) {
-        projectMenu.addEventListener('click', function(e) {
+    if (projectToggle) {
+        projectToggle.addEventListener('click', function(e) {
             e.stopPropagation();
-            this.classList.toggle('expanded');
+            projectMenu.classList.toggle('expanded');
         });
     }
 
