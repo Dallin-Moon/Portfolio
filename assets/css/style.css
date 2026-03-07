@@ -15,6 +15,7 @@ header {
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 body {
@@ -54,6 +55,7 @@ p {
 #menu-container {
     position: relative;
     z-index: 1000;
+
 }
 
 .menu-button {
@@ -82,7 +84,8 @@ p {
     gap: 10px;
     align-items: flex-start;
     justify-content: space-evenly;
-    width: 100vw;
+    width: 90vw;
+    flex-wrap: wrap;
 
     /* start hidden */
     opacity: 0;
