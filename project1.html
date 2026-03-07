@@ -12,12 +12,9 @@
         <div id="menu" class="menu-items">
             <a href="/Portfolio/">Home</a>
             <a href="/Portfolio/contact.html">Contact</a>
-            <button id="project-menu-toggle" class="menu-button">Projects ▼</button>
-            <div id="project-menu" class="projects-menu">
-                <a href="/Portfolio/project1.html">Viewshed Scoring Toolbox</a>
-                <a href="/Portfolio/project2.html">USU Campus Tree Tour</a>
-                <a href="/Portfolio/project3.html">Ski Slope Suitability Analysis</a>
-            </div>
+            <a href="/Portfolio/project1.html">Viewshed Scoring Toolbox</a>
+            <a href="/Portfolio/project2.html">USU Campus Tree Tour</a>
+            <a href="/Portfolio/project3.html">Ski Slope Suitability Analysis</a>
         </div>
     </div>
 </header>
@@ -31,6 +28,12 @@
 <p>The tool scores observer points, polygons or line segments based on what is visible to them. Using this methodology users can score features as better or worse if they're more visible. In the example I provide the input points represent cell towers. The visible area is an approximation of where that cell tower serves cell reception to. The tool can then take input features such as trails, trailheads, roads, recreation areas and a host of other possibilities and score each tower based on what is in its service area. Higher scoring towers are considered more effective. This logic could be reversed in other situations such as a construction site that should not be visible to certain objects such as resorts or hotels. A higher scoring building or site would be considered worse in that case.</p>
 <p>The tool was made to be versatile in use. The analysis can be repeated multiple times to assess differing situations. In my example data for instance, trails could be considered much more important than roads. In this case you can rank trails as more important, and the tool will score the input observers accordingly. This way you can assess multiple and varying priorities with ease.</p>
 
+<iframe 
+    src="https://experience.arcgis.com/experience/18c3974f17154a909dd6db0da49d8dcf"
+    width="100%"
+    height="600"
+    style="border:1px solid #ccc; border-radius:8px;">
+</iframe>
 
 <p>Link to tool in github: <a href="https://github.com/Dallin-Moon/Logan_Canyon_Viewshed_Score_Generator">Viewshed Scoring Toolbox GitHub Repository</a></p>
 <p>Link to ArcGIS Experience demonstrating the results of the tool: <a href="https://experience.arcgis.com/experience/18c3974f17154a909dd6db0da49d8dcf">Logan Canyon Viewshed Scoring Experience</a></p>
